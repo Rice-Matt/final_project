@@ -119,6 +119,8 @@ st.write('to compare to other things, I looked at a another data set with all Co
 URL2= "https://raw.githubusercontent.com/Rice-Matt/final_project/main/Tax_Revenue_by_Month_20240807.csv"
 df2= pd.read_csv(URL2)
 
+st.dataframe(df2, width = 800, height = 300)
+
 df_2023 = df2[df2['Calendar Year'] == 2023]
 
 total_alcoholic_tax_2023 = df_2023['Alcoholic Beverages'].sum()
