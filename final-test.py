@@ -185,5 +185,12 @@ revenue off of them; hopefully, they put it towards something positive.
 """
 )
 
-
-
+st.header('Possuble further work:')
+st.markdown(
+"""
+One thing I wanted to look at but there was no data on was where locationally in Connecticut people
+bet most. 
+Once more data is available you can look at the amount people are betting, ex. Is the average person 
+only betting $20 and a few high spenders are betting millions.  
+"""
+)
