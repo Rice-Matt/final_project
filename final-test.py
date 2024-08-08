@@ -185,7 +185,7 @@ revenue off of them; hopefully, they put it towards something positive.
 """
 )
 
-st.header('Possuble further work:')
+st.header('Possible further work:')
 st.markdown(
 """
 One thing I wanted to look at but there was no data on was where locationally in Connecticut people
