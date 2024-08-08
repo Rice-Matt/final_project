@@ -98,7 +98,7 @@ with col2:
 
 st.markdown(
 """
-For 2023 where the state collect $4,005,449 from these Licensees, lets look at Southerns state funding
+For 2023 where the state collect $4,005,449 from these Licensees, let's look at Southerns state funding
 """
 )
 
@@ -114,7 +114,7 @@ selected_year = st.selectbox('Select Year', yearly_win_loss.index, key='win_loss
 st.write(f"Total spent on sports betting {selected_year}: ${yearly_win_loss[selected_year]:,.2f}")
 
 st.subheader('how does that compare to other "vices"')
-st.write('to compare to other things, I looked at a another data set with all Connect tax revenue information')
+st.write('to compare to other things, I looked at another data set with all Connect tax revenue information')
 
 URL2= "https://raw.githubusercontent.com/Rice-Matt/final_project/main/Tax_Revenue_by_Month_20240807.csv"
 df2= pd.read_csv(URL2)
@@ -176,11 +176,11 @@ else:
 st.header('What I have learned from looking at this data')
 st.markdown(
 """
-I am sure to no ones suprise, these Licensees make a lot of money and gambling is not something
-that is profitable. I was suprised at how much they made, as well as the fact none of them have
+I am sure to no one's surpise, these Licensees make a lot of money and gambling is not something
+that is profitable. I was surprised at how much they made, as well as the fact none of them have
 ever had a negative month. Although some people suffer from gambling addiction, it is clearly not
-as big of an issue as things like alchol and tobacco use. It is nice Connecticut is making tax
-revenue off of them, hopefully they put it towards something positive.
+as big of an issue as things like alcohol and tobacco use. It is nice Connecticut is making tax
+revenue off of them; hopefully, they put it towards something positive.
 """
 )
 
