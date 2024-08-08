@@ -133,6 +133,7 @@ st.write('-Total Alcholic Beverages Tax $79,839,831')
 st.write('-Total Tobacco Products Tax $16,049,606')
 st.write('-Total Cannabis Tax $13,709,333')
 st.write('-Total Licensee Tax $4,005,449')
+st.write('-Total Taxes paid by these four vices: $113,604,219')
 
 
 labels = ['Alcoholic Beverages', 'Tobacco Products', 'Cannabis Tax', 'Licensee Tax']
