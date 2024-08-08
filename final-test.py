@@ -37,7 +37,7 @@ for licensee in licensees:
     monthly_profits = licensee_data.groupby('Month Ending')['Total Gross Gaming Revenue'].sum()
     ax.plot(monthly_profits.index, monthly_profits.values / 1e6, label=licensee)
 
-ax.set_xlabel('Month Ending')
+ax.set_xlabel('Year-Month Ending')
 ax.set_ylabel('Total Gross Gaming Revenue (Millions)')
 ax.set_title('Total Licensee Monthly Profits')
 plt.xticks(rotation=45)
